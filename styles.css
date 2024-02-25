@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Nanum+Myeongjo&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+body {
+    font-family: "Nanum Myeongjo", serif;
+    font-weight: 400;
+    font-style: normal;
+    color:rgb(39, 39, 39);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    background-color:  rgb(255, 253, 253);
+    flex-shrink: 0;
+}
+
+.navbar-brand, .text-primary {
+    color: #7d9dc3!important;
+}
+
+.nav-link {
+    font-weight: 600;
+}
+
+.bg {
+    background-color: #7d9dc3;
+    color: rgb(255, 253, 253);
+}
+
+
+i {
+    height: 40px;
+    width: 40px;
+    margin-top: 8px;
+    padding-right: 8px;
+}
+
+.nav-tabs.nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    border: none !important;
+}
+
+footer {
+    background-color: #7d9dc3;
+}
+
+.accordion-button {
+    color: #7d9dc3;
+}
+
+.accordion-button.collapsed {
+    color: black; 
+}
+
+.btn {
+    background-color: #7d9dc3;
+    border: none;
+    color: rgb(255, 253, 253);
+}
+
+
+.btn:hover {
+    background-color: rgb(255, 253, 253);
+    border: solid;
+    border-width: 1px;
+    border-color: #7d9dc3;
+    color: #7d9dc3;
+}
+
+.card{
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+    cursor: pointer;
+}
+
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+
+
+.accordion{
+    --bs-accordion-active-color: #7d9dc3 !important;
+    --bs-button-active: #7d9dc3;
+}
+
+.navbar-nav > li{
+    padding-left:30px;
+    padding-right:30px;
+  }
+
+.navbar-nav > .btn {
+    padding-left:100px;
+    padding-right:30px;
+    width: 50px;
+}
+
+footer {
+    color: rgb(255, 253, 253);
+    margin-top: auto;
+    height: 250px;
+}
+
+footer table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(255, 253, 253);
+    padding: 20px;
+}
+
+#style_for_cards .body{
+    margin: 0;
+    background: #f2f2f2;
+
+}
+#style_for_cards h3{
+    text-align: center;
+    font-size: 22px;
+    margin: 0.5;
+    padding-top: 10px;
+
+}
+#style_for_cards a{
+    text-decoration: none;
+
+}
+#style_for_cards .gallery{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+}
+
+#style_for_cards .content{
+    width: 20%;
+    margin: 75px;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    padding-top: 10px;
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+    cursor: pointer;
+    background: white;
+    height: 500px;
+    font-size: medium;
+}
+
+#style_for_cards .content:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+#style_for_cards img{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+#style_for_cards p{
+    text-align: center;
+    color: #b2bec3
+    padding 8px;
+}
+#style_for_cards h6{
+    font-size: 26px;
+    text-align: center;
+    color: #222f3e;
+    margin: 0;}
