@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Lancelot&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+body {
+  font-family: "EB Garamond", serif;
+  font-style: normal;
+}
+
+header {
+    background-image:  linear-gradient(180deg, #D5F2ED, #96B3AE);
+}
+
+.navbar-brand, .text-primary {
+    color: #81abda !important;
+}
+
+.nav-link {
+    font-weight: 600;
+}
+
+.bg {
+    background-color: #81abda;
+    color: white;
+}
+
+i {
+    height: 40px;
+    width: 40px;
+    margin-top: 8px;
+    padding-right: 8px;
+}
+
+.nav-tabs.nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    border: none !important;
+}
+
+footer {
+    background-color: #81abda;
+}
+
+.accordion-button {
+    color: #81abda;
+}
+
+.accordion-button.collapsed {
+    color: black; 
+}
+
+.btn {
+    background-color: #81abda;
+    border: none;
+    color: white;
+}
+
+.btn:hover{
+    background-color: white;
+    border: solid;
+    border-width: 1px;
+    border-color: #81abda;
+    color: #81abda;
+}
+.accordion{
+    --bs-accordion-active-color: #81abda !important;
+    --bs-button-active: #81abda;
+}
