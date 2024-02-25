@@ -10,10 +10,19 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"crossorigin="anonymous"></script>
 
 </head>
-<body class="bg-custom">
-    <nav class="navbar navbar-expand-lg bg-light">
+<body class="bg-img" style="background-image: url('assets/Background3-5.png'); background-size:cover;width: 100%;">
+  <nav class="navbar navbar-expand-lg header border" style = "width: 100%">
         <div class="container">
-          <a class="navbar-brand" href="#"><img src = "canvas.png" alt = "Cumulus Beauty" height = 50px></a>
+
+            <!--Visible only on mobile -->
+            <div class="d-block d-sm-none d-lg-none"> 
+                <img src="assets/cumulus_beauty.PNG" alt = "Cumulus Beauty" style = "width: 300px; height: auto;"/>
+            </div>
+
+            <!-- Hidden only on mobile-->
+            <div class="d-none d-sm-block"> 
+                <img src="assets/cumulus_beauty.PNG" alt = "Cumulus Beauty" height = 50px/>
+            </div>
           <button class="navbar-toggler shadow-lg" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -24,39 +33,703 @@
                   </li>
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="search-products.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Search Products
+                      Products
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <li><a class="dropdown-item" href="#">Foundation</a></li>
-                        <li><a class="dropdown-item" href="#">Concealer</a></li>
-                        <li><a class="dropdown-item" href="#">Mascara</a></li>
-                        <li><a class="dropdown-item" href="#">Lipstick</a></li>
-                        <li><a class="dropdown-item" href="#">Blush</a></li>
-                        <li><a class="dropdown-item" href="#">Skincare</a></li>
-                      </ul>
+                      <li><a class="dropdown-item" href="#">Foundation</a></li>
+                      <li><a class="dropdown-item" href="#">Concealer</a></li>
+                      <li><a class="dropdown-item" href="#">Mascara</a></li>
+                      <li><a class="dropdown-item" href="#">Lipstick</a></li>
+                      <li><a class="dropdown-item" href="#">Blush</a></li>
+                      <li><a class="dropdown-item" href="#">Skincare</a></li>
+                    </ul>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="about.html">About</a>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contacts</a>
-                  </li>
                 </ul>
           </div>            
           <div class="align-items-right span">
-              <i class="bi bi-search"></i>
-                <form class="form-inline d-inline-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                </form>
-            </div>
+            <button class="align-items-right shadow-lg btn btn-primary fw-bold" style="width:150px;">
+                <a class="nav-link" href="contact.html"><i class="bi bi-cloud-fill"></i>Contact Us</a>
+            </button>
+        </div>
         </div>
       </nav>
+      <div class="gallery" id="style_for_cards">
+        <!-- <link rel = "stylesheet" href = "style.css"> -->
+        
+        <div id="#foundations"> 
+
+            <br>
+            <br>
+            <center>
+                <h1>
+                    <b> 
+                        Foundations
+                    </b>
+                </h1>
+            </center>
+            
+
+        <div class="content">
+          
+            <img src="assets/foundation1.jpg">
+            <h3>Fenty Beauty by Rihanna Soft Matte Longwear Liquid Foundation</h3>
+            <br>
+            <p> A soft matte, long-wearing foundation with climate adaptive technology</p>
+            <h6>Contains ICKY ingredients </h6>
+            <br>
+            <h6>★★★★☆</h6>
+            <br>
+            <!-- <ul>
+                <li><i class="fa fa-star checked"></i></li>
+                <li> ★ </li>
+                <li><i class="fa fa-star checked"></i></li>
+                <li> ★ </li>
+                <li><i class="fa fa-star checked"></i></li>
+                <li> ★ </li>
+                <li><i class="fa fa-star checked"></i></li>
+                <li> ★ </li>
+                <li><i class="fa fa-star"></i></li>
+                <li> ☆ </li>
+            </ul> -->
+        </div>
+        <div class="content">
+          <img src="assets/foundation2.jpg">
+          <h3> Rare Beauty by Selena Gomez Liquid Touch Weightless Foundation</h3>
+          <br>
+          <p>An innovative weightless and breathable foundation </p>
+          <h6> No ICKY ingredients </h6>
+          <br>
+          <h6>★★★★☆</h6>
+          <br>
+          <!-- <ul>
+              <li><i class="fa fa-star checked"></i></li>
+              <li> ★ </li>
+              <li><i class="fa fa-star checked"></i></li>
+              <li> ★ </li>
+              <li><i class="fa fa-star checked"></i></li>
+              <li> ★ </li>
+              <li><i class="fa fa-star checked"></i></li>
+              <li> ★ </li>
+              <li><i class="fa fa-star"></i></li>
+              <li> ☆ </li>
+          </ul> -->
+
+      </div>
+
+      <div class="content">
+          <img src="assets/foundation3.png">
+          <h3>Charlotte Tilbury Airbrush Flawless Longwear Foundation</h3>
+          <br>
+          <p>A long-lasting, weightless, and hybrid skincare foundation </p>
+          <h6> Contains ICKY ingredients </h6>
+          <br>
+          <h6>★★★★☆</h6>
+          <br>
+          <!-- <ul>
+              <li><i class="fa fa-star checked"></i></li>
+              <li> ★ </li>
+              <li><i class="fa fa-star checked"></i></li>
+              <li> ★ </li>
+              <li><i class="fa fa-star checked"></i></li>
+              <li> ★ </li>
+              <li><i class="fa fa-star checked"></i></li>
+              <li> ★ </li>
+              <li><i class="fa fa-star"></i></li>
+              <li> ☆ </li>
+          </ul> -->
+      </div>
+
+      <!-- <div class="content">
+          <img src="foundation4.png">
+          <h3> Dior Backstage Face & Body Foundation</h3>
+          <p>Product Description </p>
+          <h6> Contains ICKY ingredients  </h6>
+          <ul>
+              <li><i class="fa fa-star checked"></i></li>
+              <li> ★ </li>
+              <li><i class="fa fa-star checked"></i></li>
+              <li> ★ </li>
+              <li><i class="fa fa-star checked"></i></li>
+              <li> ★ </li>
+              <li><i class="fa fa-star checked"></i></li>
+              <li> ★ </li>
+              <li><i class="fa fa-star"></i></li>
+              <li> ★ </li>
+          </ul>
+      </div> -->
+
+      <!-- <div class="content">
+          <img src="foundation5.png">
+          <h3>Makeup by Mario SurrealSkin Liquid Foundation</h3>
+          <p>Product Description </p>
+          <h6> No ICKY ingredients </h6>
+          <ul>
+              <li><i class="fa fa-star checked"></i></li>
+              <li> ★ </li>
+              <li><i class="fa fa-star checked"></i></li>
+              <li> ★ </li>
+              <li><i class="fa fa-star checked"></i></li>
+              <li> ★ </li>
+              <li><i class="fa fa-star checked"></i></li>
+              <li> ★ </li>
+              <li><i class="fa fa-star"></i></li>
+              <li> ★ </li>
+          </ul>
+      </div>--->
+      </div>
+
+      <div class="gallery">
+          <div id=" #concealers">
+            
+            <br>
+            <br>
+            <center>
+                <h1>
+                    <b> 
+                        Concealers
+                    </b>
+                </h1>
+            </center>
 
 
-    <footer class="py-5">
-        <p class = "text-center py-3 text-white">
-            Pearl Hacks 2024. All rights reserved.
-        </p>
+          <div class="content">
+              <img src="assets/concealer1.png">
+              <h3>Rare Beauty by Selena Gomez Liquid Touch Brightening Conclear</h3>
+              <br>
+              <p>A lightweight, hydrating concealer that is medium-to-full coverage </p>
+              <h6> No ICKY ingredients </h6>
+              <br>
+            <h6>★★★★☆</h6>
+            <br>
+              <!-- <ul>
+                  <li><i class="fa fa-star checked"></i></li>
+                  <li> ★ </li>
+                  <li><i class="fa fa-star checked"></i></li>
+                  <li> ★ </li>
+                  <li><i class="fa fa-star checked"></i></li>
+                  <li> ★ </li>
+                  <li><i class="fa fa-star checked"></i></li>
+                  <li> ★ </li>
+                  <li><i class="fa fa-star"></i></li>
+                  <li> ☆ </li>
+              </ul> -->
+          </div>
+
+          <div class="content">
+              <img src="assets/concealer2.png">
+              <h3>Nars Radiant Creamy Concealer</h3>
+              <br>
+              <p>A multipurpose concealer that brightens, corrects, and perfects</p>
+              <h6> No ICKY ingredients </h6>
+              <br>
+            <h6>★★★★☆</h6>
+            <br>
+              <!-- <ul>
+                  <li><i class="fa fa-star checked"></i></li>
+                  <li> ★ </li>
+                  <li><i class="fa fa-star checked"></i></li>
+                  <li> ★ </li>
+                  <li><i class="fa fa-star checked"></i></li>
+                  <li> ★ </li>
+                  <li><i class="fa fa-star checked"></i></li>
+                  <li> ★ </li>
+                  <li><i class="fa fa-star"></i></li>
+                  <li> ☆ </li>
+              </ul> -->
+          </div>
+
+          <div class="content">
+              <img src="assets/concealer3.png">
+              <h3>Hourglass Vanish Airbrush Concealer</h3>
+              <br>
+              <p>A full-coverage, weightless, and waterproof concealer </p>
+              <h6> No ICKY ingredients </h6>
+              <br>
+            <h6>★★★★☆</h6>
+            <br>
+              <!-- <ul>
+                  <li><i class="fa fa-star checked"></i></li>
+                  <li> ★ </li>
+                  <li><i class="fa fa-star checked"></i></li>
+                  <li> ★ </li>
+                  <li><i class="fa fa-star checked"></i></li>
+                  <li> ★ </li>
+                  <li><i class="fa fa-star checked"></i></li>
+                  <li> ★ </li>
+                  <li><i class="fa fa-star"></i></li>
+                  <li> ☆ </li>
+              </ul> -->
+          </div>
+
+          <!-- <div class="content">
+              <img src="concelaer4.png">
+              <h3> Name of Product</h3>
+              <p>Product Description </p>
+              <h6> Contains __ ingredients REMEBER TO CHANGE STARS </h6>
+              <ul>
+                  <li><i class="fa fa-star checked"></i></li>
+                  <li><i class="fa fa-star checked"></i></li>
+                  <li><i class="fa fa-star checked"></i></li>
+                  <li><i class="fa fa-star checked"></i></li>
+                  <li><i class="fa fa-star"></i></li>
+              </ul>
+          </div>
+
+          <div class="content">
+              <img src="concelaer5.png">
+              <h3>Product Description </h3>
+              <p>Product Description </p>
+              <h6> Contains __ ingredients </h6>
+              <ul>
+                  <li><i class="fa fa-star checked"></i></li>
+                  <li><i class="fa fa-star checked"></i></li>
+                  <li><i class="fa fa-star checked"></i></li>
+                  <li><i class="fa fa-star checked"></i></li>
+                  <li><i class="fa fa-star"></i></li>
+              </ul>
+          </div>
+          </div>-->
+
+
+          <div class="gallery">
+              <div id="mascaras">
+                
+            <br>
+            <br>
+            <center>
+                <h1>
+                    <b> 
+                        Mascaras
+                    </b>
+                </h1>
+            </center>
+
+
+              <div class="content">
+                  <img src="assets/mascara1.jpg">
+                  <h3>Lancome Lash Idole Lengthening & Volumizing Mascara</h3>
+                  <br>
+                  <p>A volumizing and lengthening mascara that targets lashes for an instant lift </p>
+                  <h6> Contains ICKY ingredients </h6>
+                  <br>
+                   <h6>★★★★☆</h6>
+                  <br>
+                  <!-- <ul>
+                      <li><i class="fa fa-star checked"></i></li>
+                      <li> ★ </li>
+                      <li><i class="fa fa-star checked"></i></li>
+                      <li> ★ </li>
+                      <li><i class="fa fa-star checked"></i></li>
+                      <li> ★ </li>
+                      <li><i class="fa fa-star checked"></i></li>
+                      <li> ★ </li>
+                      <li><i class="fa fa-star"></i></li>
+                      <li> ☆ </li>
+                  </ul> -->
+              </div>
+  
+              <div class="content">
+                  <img src="assets/mascara2.jpg">
+                  <h3>Tower 28 Beauty MakeWaves Lengthening Volumizing Mascara</h3>
+                  <br>
+                  <p>A vegan and safe mascara for sensitive eyes that volumizes and lengthens lashes </p>
+                  <h6> Contains ICKY ingredients </h6>
+                  <br>
+            <h6>★★★★☆</h6>
+            <br>
+                  <!-- <ul>
+                      <li><i class="fa fa-star checked"></i></li>
+                      <li> ★ </li>
+                      <li><i class="fa fa-star checked"></i></li>
+                      <li> ★ </li>
+                      <li><i class="fa fa-star checked"></i></li>
+                      <li> ★ </li>
+                      <li><i class="fa fa-star checked"></i></li>
+                      <li> ★ </li>
+                      <li><i class="fa fa-star"></i></li>
+                      <li> ☆ </li>
+                  </ul> -->
+              </div>
+  
+              <div class="content">
+                  <img src="assets/mascara3.jpg">
+                  <h3>ILIA BEAUTY Mini Limitless Lash Lengthening Mascara</h3>
+                  <br>
+                  <p>A buildable and flake-free mascara that lengthens, lifts, and curls lashes</p>
+                  <h6> No ICKY ingredients </h6>
+                  <br>
+                  <h6>★★★★☆</h6>
+                  <br>
+                  <!-- <ul>
+                      <li><i class="fa fa-star checked"></i></li>
+                      <li> ★ </li>
+                      <li><i class="fa fa-star checked"></i></li>
+                      <li> ★ </li>
+                      <li><i class="fa fa-star checked"></i></li>
+                      <li> ★ </li>
+                      <li><i class="fa fa-star checked"></i></li>
+                      <li> ★ </li>
+                      <li><i class="fa fa-star"></i></li>
+                      <li> ☆ </li>
+                  </ul> -->
+              </div>
+  
+              <!-- <div class="content">
+                  <img src="mascara4.png">
+                  <h3> Name of Product</h3>
+                  <p>Product Description </p>
+                  <h6> Contains __ ingredients REMEBER TO CHANGE STARS </h6>
+                  <ul>
+                      <li><i class="fa fa-star checked"></i></li>
+                      <li><i class="fa fa-star checked"></i></li>
+                      <li><i class="fa fa-star checked"></i></li>
+                      <li><i class="fa fa-star checked"></i></li>
+                      <li><i class="fa fa-star"></i></li>
+                  </ul>
+              </div>
+  
+              <div class="content">
+                  <img src="mascara5.png">
+                  <h3>Product Description </h3>
+                  <p>Product Description </p>
+                  <h6> Contains __ ingredients </h6>
+                  <ul>
+                      <li><i class="fa fa-star checked"></i></li>
+                      <li><i class="fa fa-star checked"></i></li>
+                      <li><i class="fa fa-star checked"></i></li>
+                      <li><i class="fa fa-star checked"></i></li>
+                      <li><i class="fa fa-star"></i></li>
+                  </ul>
+              </div>
+              </div>-->
+
+              <div class="gallery">
+                  <div id="lipsticks">
+                    
+            <br>
+            <br>
+            <center>
+                <h1>
+                    <b> 
+                        Lipsticks
+                    </b>
+                </h1>
+            </center>
+
+
+                  <div class="content">
+                      <img src="assets/lipstick1.png">
+                      <h3> Anastasia Beverly Hills Matte & Satin Velvet Lipstick </h3>
+                      <br>
+                      <p>A full-pigmented lipstick with brillant color, control and comfort </p>
+                      <h6> No ICKY ingredients </h6>
+                      <br>
+            <h6>★★★★☆</h6>
+            <br>
+                      <!-- <ul>
+                          <li><i class="fa fa-star checked"></i></li>
+                          <li> ★ </li>
+                          <li><i class="fa fa-star checked"></i></li>
+                          <li> ★ </li>
+                          <li><i class="fa fa-star checked"></i></li>
+                          <li> ★ </li>
+                          <li><i class="fa fa-star checked"></i></li>
+                          <li> ★ </li>
+                          <li><i class="fa fa-star"></i></li>
+                          <li> ☆ </li>
+                      </ul> -->
+                  </div>
+      
+                  <div class="content">
+                      <img src="assets/lipstick2.png">
+                      <h3>SEPHORA COLLECTION Satin Hydrating Lipstick </h3>
+                      <br>
+                      <p>A flexible satin lipstick that delivers vibrant, long lasting color and hydration </p>
+                      <h6> Contains ICKY ingredients </h6>
+                      <br>
+            <h6>★★★★☆</h6>
+            <br>
+                      
+                      <!-- <ul>
+                          <li><i class="fa fa-star checked"></i></li>
+                          <li> ★ </li>
+                          <li><i class="fa fa-star checked"></i></li>
+                          <li> ★ </li>
+                          <li><i class="fa fa-star checked"></i></li>
+                          <li> ★ </li>
+                          <li><i class="fa fa-star checked"></i></li>
+                          <li> ★ </li>
+                          <li><i class="fa fa-star"></i></li>
+                          <li> ☆ </li>
+                      </ul> -->
+                  </div>
+      
+                  <div class="content">
+                      <img src="assets/lipstick3.png">
+                      <h3>Rare Beauty by Selena Gomez Kind Words matte Lipstick</h3>
+                      <br>
+                      <p> A buttery, pigment-rich, soft matte lipstick that hugs lips in pure comfort all day</p>
+                      <h6> No ICKY ingredients </h6>
+                      <br>
+            <h6>★★★★☆</h6>
+            <br>
+                      <!-- <ul>
+                          <li><i class="fa fa-star checked"></i></li>
+                          <li> ★ </li>
+                          <li><i class="fa fa-star checked"></i></li>
+                          <li> ★ </li>
+                          <li><i class="fa fa-star checked"></i></li>
+                          <li> ★ </li>
+                          <li><i class="fa fa-star checked"></i></li>
+                          <li> ★ </li>
+                          <li><i class="fa fa-star"></i></li>
+                          <li> ☆ </li>
+                      </ul> -->
+                  </div>
+      
+                  <!--<div class="content">
+                      <img src="lipstick4.png">
+                      <h3> Name of Product</h3>
+                      <p>Product Description </p>
+                      <h6> Contains __ ingredients REMEBER TO CHANGE STARS </h6>
+                      <ul>
+                          <li><i class="fa fa-star checked"></i></li>
+                          <li><i class="fa fa-star checked"></i></li>
+                          <li><i class="fa fa-star checked"></i></li>
+                          <li><i class="fa fa-star checked"></i></li>
+                          <li><i class="fa fa-star"></i></li>
+                      </ul>
+                  </div>
+      
+                  <div class="content">
+                      <img src="lipstick5.png">
+                      <h3>Product Description </h3>
+                      <p>Product Description </p>
+                      <h6> Contains __ ingredients </h6>
+                      <ul>
+                          <li><i class="fa fa-star checked"></i></li>
+                          <li><i class="fa fa-star checked"></i></li>
+                          <li><i class="fa fa-star checked"></i></li>
+                          <li><i class="fa fa-star checked"></i></li>
+                          <li><i class="fa fa-star"></i></li>
+                      </ul>
+                  </div>
+                  </div>-->
+
+                  <div class="gallery">
+                      <div id="blushes">
+                        
+            <br>
+            <br>
+            <center>
+                <h1>
+                    <b> 
+                        Blushes
+                    </b>
+                </h1>
+            </center>
+
+
+                      <div class="content">
+                          <img src="assets/blush1.jpg">
+                          <h3>Rare Beauty by Selena Gomez Soft Pinch Liquid Blush</h3>
+                          <br>
+                          <p>A weightless, long-lasting liquid blush and blends and builds beautifully </p>
+                          <h6> No ICKY ingredients </h6>
+                          <br>
+            <h6>★★★★★</h6>
+            <br>
+                          <!-- <ul>
+                              <li><i class="fa fa-star checked"></i></li>
+                              <li> ★ </li>
+                              <li><i class="fa fa-star checked"></i></li>
+                              <li> ★ </li>
+                              <li><i class="fa fa-star checked"></i></li>
+                              <li> ★ </li>
+                              <li><i class="fa fa-star checked"></i></li>
+                              <li> ★ </li>
+                              <li><i class="fa fa-star"></i></li>
+                              <li> ★ </li>
+                          </ul> -->
+                      </div>
+          
+                      <div class="content">
+                          <img src="assets/blush2.png">
+                          <h3>NARS Blush </h3>
+                          <br>
+                          <p>An award-winning pressed powder blush that is weightless and a natural rush of color</p>
+                          <h6>No ICKY ingredients</h6>
+                          <br>
+            <h6>★★★★☆</h6>
+            <br>
+                          <!-- <ul>
+                              <li><i class="fa fa-star checked"></i></li>
+                              <li> ★ </li>
+                              <li><i class="fa fa-star checked"></i></li>
+                              <li> ★ </li>
+                              <li><i class="fa fa-star checked"></i></li>
+                              <li> ★ </li>
+                              <li><i class="fa fa-star checked"></i></li>
+                              <li> ★ </li>
+                              <li><i class="fa fa-star"></i></li>
+                              <li> ☆ </li>
+                          </ul> -->
+                      </div>
+          
+                      <div class="content">
+                          <img src="assets/blush3.jpg">
+                          <h3>Saie Dew Blush Lendable Liquid Blush</h3>
+                          <br>
+                          <p>A liquid-cream formula blush that melts into cheeks seamlessly leaving a perfect flush every time </p>
+                          <h6> No ICKY ingredients </h6>
+                          <br>
+            <h6>★★★★☆</h6>
+            <br>
+                          <!-- <ul>
+                              <li><i class="fa fa-star checked"></i></li>
+                              <li> ★ </li>
+                              <li><i class="fa fa-star checked"></i></li>
+                              <li> ★ </li>
+                              <li><i class="fa fa-star checked"></i></li>
+                              <li> ★ </li>
+                              <li><i class="fa fa-star checked"></i></li>
+                              <li> ★ </li>
+                              <li><i class="fa fa-star"></i></li>
+                              <li> ☆ </li>
+                          </ul> -->
+                      </div>
+          
+                      <!--<div class="content">
+                          <img src="blush4.png">
+                          <h3> Name of Product</h3>
+                          <p>Product Description </p>
+                          <h6> Contains __ ingredients REMEBER TO CHANGE STARS </h6>
+                          <ul>
+                              <li><i class="fa fa-star checked"></i></li>
+                              <li><i class="fa fa-star checked"></i></li>
+                              <li><i class="fa fa-star checked"></i></li>
+                              <li><i class="fa fa-star checked"></i></li>
+                              <li><i class="fa fa-star"></i></li>
+                          </ul>
+                      </div>
+          
+                      <div class="content">
+                          <img src="blush5.png">
+                          <h3>Product Description </h3>
+                          <p>Product Description </p>
+                          <h6> Contains __ ingredients </h6>
+                          <ul>
+                              <li><i class="fa fa-star checked"></i></li>
+                              <li><i class="fa fa-star checked"></i></li>
+                              <li><i class="fa fa-star checked"></i></li>
+                              <li><i class="fa fa-star checked"></i></li>
+                              <li><i class="fa fa-star"></i></li>
+                          </ul>
+                      </div>
+                      </div>-->
+
+                      <div class="gallery">
+                          <div id="skincares">
+                            
+            <br>
+            <br>
+            <center>
+                <h1>
+                    <b> 
+                        Skincare
+                    </b>
+                </h1>
+            </center>
+
+
+                          <div class="content">
+                              <img src="assets/skincare1.png">
+                              <h3>Glow Recipe Mini Watermelon Glow PHA + BHA Pore-Tight Toner</h3>
+                              <br>
+                              <p>A gentle, PHA and BHA infused watermelon toner that hydrates skin and minimizes pores</p>
+                              <h6> No ICKY ingredients </h6>
+                              <br>
+            <h6>★★★★☆</h6>
+            <br>
+                              <!-- <ul>
+                                  <li><i class="fa fa-star checked"></i></li>
+                                  <li> ★ </li>
+                                  <li><i class="fa fa-star checked"></i></li>
+                                  <li> ★ </li>
+                                  <li><i class="fa fa-star checked"></i></li>
+                                  <li> ★ </li>
+                                  <li><i class="fa fa-star checked"></i></li>
+                                  <li> ★ </li>
+                                  <li><i class="fa fa-star"></i></li>
+                                  <li> ☆ </li>
+                              </ul> -->
+                          </div>
+              
+                          <div class="content">
+                              <img src="assets/skincare2.jpg">
+                              <h3>Touchland Power Mist Hydrating Hand Sanitizer</h3>
+                              <br>
+                              <p>A healthy product that strives for pure beauty and health</p>
+                              <h6> Contains ICKY ingredients </h6>
+                              <br>
+            <h6>★★★★☆</h6>
+            <br>
+                              <!-- <ul>
+                                  <li><i class="fa fa-star checked"></i></li>
+                                  <li> ★ </li>
+                                  <li><i class="fa fa-star checked"></i></li>
+                                  <li> ★ </li>
+                                  <li><i class="fa fa-star checked"></i></li>
+                                  <li> ★ </li>
+                                  <li><i class="fa fa-star checked"></i></li>
+                                  <li> ★ </li>
+                                  <li><i class="fa fa-star"></i></li>
+                                  <li> ☆ </li>
+                              </ul> -->
+                          </div>
+              
+                          <div class="content">
+                              <img src="assets/skincare3.png">
+                              <h3>Tower 28 Beauty SOS Daily Rescue Facial Spray</h3>
+                              <br>
+                              <p> A simple and effective, pH-balancing hypochlorous acid toner that minimizes visible skin irritation and redness</p>
+                              <h6> No ICKY ingredients </h6>
+                              <br>
+                              <h6>★★★★☆</h6>
+                              <br>
+                              <!-- <ul>
+                                  <li><i class="fa fa-star checked"></i></li>
+                                  <li> ★ </li>
+                                  <li><i class="fa fa-star checked"></i></li>
+                                  <li> ★ </li>
+                                  <li><i class="fa fa-star checked"></i></li>
+                                  <li> ★ </li>
+                                  <li><i class="fa fa-star checked"></i></li>
+                                  <li> ★ </li>
+                                  <li><i class="fa fa-star"></i></li>
+                                  <li> ☆ </li>
+                              </ul> -->
+                          </div>
+      </div>
+      </div>
+
+
+      <footer class="py-5">
+        <p class="text-center py-4 fw-bold"><i class="bi bi-cloud-fill"></i>Cumulus Beauty</p>
+        <table>
+            <tr>
+              <th><a href="index.html">Home</a></th>
+              <th><a href="search-products.html">Products</a></th>
+              <th><a href="about.html">About</a></th>
+              <th><a href="contact.html">Contact Us</a></th>
+            </tr>
+        </table>
+        <h6 class = "text-center py-3">
+            Created by Estella, Anya, Amethyst, and Ashley for Pearl Hacks 2024. All rights reserved.
+        </h6>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
