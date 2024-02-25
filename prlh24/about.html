@@ -4,16 +4,25 @@
     <!--Format source: https://www.youtube.com/watch?v=UgfjTV5pEC4-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Cumulus Beauty - About    </title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel = "stylesheet" href = "styles.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"crossorigin="anonymous"></script>
 
 </head>
-<body class="bg-custom">
-    <nav class="navbar navbar-expand-lg bg-light">
+<body class="bg-img" style="background-image: url('assets/Background3.png'); background-size:cover;width: 100%;">
+    <nav class="navbar navbar-expand-lg bg-light" style = "width: 100%">
         <div class="container">
-          <a class="navbar-brand" href="#"><img src = "assets/canvas.png" alt = "Cumulus Beauty" height = 50px></a>
+
+            <!--Visible only on mobile -->
+            <div class="d-block d-sm-none d-lg-none"> 
+                <img src="assets/cumulus_beauty.PNG" alt = "Cumulus Beauty" style = "width: 300px; height: auto;"/>
+            </div>
+
+            <!-- Hidden only on mobile-->
+            <div class="d-none d-sm-block"> 
+                <img src="assets/cumulus_beauty.PNG" alt = "Cumulus Beauty" height = 50px/>
+            </div>
           <button class="navbar-toggler shadow-lg" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -24,30 +33,26 @@
                   </li>
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="search-products.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Search Products
+                      Products
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <li><a class="dropdown-item" href="#">Foundation</a></li>
-                        <li><a class="dropdown-item" href="#">Concealer</a></li>
-                        <li><a class="dropdown-item" href="#">Mascara</a></li>
-                        <li><a class="dropdown-item" href="#">Lipstick</a></li>
-                        <li><a class="dropdown-item" href="#">Blush</a></li>
-                        <li><a class="dropdown-item" href="#">Skincare</a></li>
-                      </ul>
+                      <li><a class="dropdown-item" href="#">Foundation</a></li>
+                      <li><a class="dropdown-item" href="#">Concealer</a></li>
+                      <li><a class="dropdown-item" href="#">Mascara</a></li>
+                      <li><a class="dropdown-item" href="#">Lipstick</a></li>
+                      <li><a class="dropdown-item" href="#">Blush</a></li>
+                      <li><a class="dropdown-item" href="#">Skincare</a></li>
+                    </ul>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="about.html">About</a>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contacts</a>
-                  </li>
                 </ul>
           </div>            
           <div class="align-items-right span">
-              <i class="bi bi-search"></i>
-                <form class="form-inline d-inline-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                </form>
+                <button class="align-items-right shadow-lg btn btn-primary fw-bold" style="width: 110px;">
+                    <a class="nav-link" href="contact.html">Contact Us</a>
+                </button>
             </div>
         </div>
       </nav>
@@ -55,42 +60,77 @@
       <section class = "container py-5">
         <div class = "row">
             <div class = "col-12">
-                <h2>Ranking Explanation (For About Page)</h2>
-                <p class="mt-4">Yes this is how we sort stuff</p>
+                <h2>About Us</h2>
+                <p class="mt-4">
+                  Our rankings integrate best selling products from Sephora with a focus on product healthiness, ensuring a balance of trendiness and well-being.</p>
                 <div class="accordion" id="accordionExample">
                     <div class="accordion-item">
                       <h2 class="accordion-header" id="headingOne">
                         <button class="accordion-button fw-bold fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                          Method 1
+                          Mission Statement
                         </button>
                       </h2>
                       <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                          <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                          <strong>We strive to provide accurate product rankings to better inform people everywhere of what products are best for their health and natural beauty. 
+  
                         </div>
                       </div>
                     </div>
                     <div class="accordion-item">
                       <h2 class="accordion-header" id="headingTwo">
                         <button class="accordion-button collapsed fw-bold fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                          Method 2
+                          How did we create our individual product descriptions?
                         </button>
                       </h2>
                       <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                          <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                          <strong>Our individual product descriptions take into account the riskiness of ingredients, general product information, and popularity of the product.  They are primarily based on Sephora product descriptions and information about icky ingredients from incidecoder.com.   
                         </div>
                       </div>
                     </div>
                     <div class="accordion-item">
                       <h2 class="accordion-header" id="headingThree">
                         <button class="accordion-button collapsed fw-bold fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                          Accordion Item #3
+                          What are icky ingredients and how does this relate to health?
                         </button>
                       </h2>
                       <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                          <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                          <strong>At Cumulus Beauty, we believe in transparency and the right to know what's in your beauty products. That's why we take the time to point out products with ingredients that could pose a risk, not just to your skin, but to your overall health.
+
+                            We're here to help you make informed decisions about your beauty routine, steering you towards clean, safe skincare options. 
+                            <br> 
+                            <br> 
+                            Our mission is to support a beauty experience that uplifts and empowers, without risking your confidence or health.
+                            
+                            Cumulus Beauty aims to be the starting point on your journey towards a healthier lifestyle, promoting beauty practices that enhance well-being without compromising self-esteem.
+                            <br>
+                            <br>
+                            Icky items include: 
+                            <ol>
+                              <li><strong>Parfum/Fragrance:</strong> Often contains a mixture of chemicals, some of which can be allergens or irritants, leading to skin sensitivities and allergic reactions.</li>
+                              <li></strong>Alpha-Isomethyl Ionone:</strong> A synthetic fragrance ingredient that can cause skin sensitivities and allergic reactions in some individuals.</li>
+                              <li></strong>Benzyl Salicylate:</strong> Acts as a fragrance additive and UV light absorber but can cause skin irritation and sensitization, particularly in those with sensitive skin.</li>
+                              <li></strong>Citronellol:</strong> A common fragrance ingredient that can cause allergic reactions and skin irritation in sensitive individuals.</li>
+                              <li></strong>Alcohol:</strong> Can strip the skin of its natural oils, leading to dryness, irritation, and in some cases, a disturbance in the skin's natural barrier function.</li>
+                              <li></strong>Citrus Limon (Lemon) Peel Oil:</strong> Contains compounds that can be phototoxic, leading to skin irritation or sensitization when exposed to sunlight.</li>
+                              <li></strong>Citrus Aurantifolia (Lime) Oil</strong> Similar to lemon peel oil, lime oil can also be phototoxic and cause skin irritation or sensitization upon sun exposure.</li>
+                              <li></strong>Fragrance:</strong> As with "Parfum," the term "Fragrance" can encompass a variety of undisclosed chemicals that may cause allergic reactions and skin sensitivities.</li>
+                              <li></strong>Hexyl Cinnamal:</strong> A fragrance compound that can cause allergic reactions and is a potential irritant for sensitive skin types.</li>
+                              <li></strong>Geraniol:</strong> A fragrant alcohol that can lead to allergic dermatitis in sensitive individuals.</li>
+                              <li></strong>Linalool:</strong> A naturally occurring terpene alcohol found in many flowers and spice plants that can cause allergic reactions and skin irritation in sensitive individuals.</li>
+                              <li></strong>Ethyl Alcohol (70%):</strong> High concentrations can be overly drying and irritating to the skin, potentially disrupting the skin's protective barrier.</li>
+                              <li></strong>Lemon Essential Oil:</strong> Can be phototoxic and may cause skin irritation or sensitization, particularly when skin is exposed to UV light.</li>
+                              <li></strong>BHA (Butylated Hydroxyanisole):</strong> An antioxidant used to preserve fats and oils in cosmetics but can induce allergic reactions and has been linked to potential endocrine disruption.</li>
+                              <li></strong>Benzyl Benzoate:</strong> Used as a fragrance ingredient and a solvent, but it can be an irritant and cause allergic reactions in sensitive individuals.</li>
+                              <li></strong>Limonene:</strong> A scent ingredient and solvent naturally found in citrus peels but can oxidize on exposure to air and become allergenic.</li>
+                              <li></strong>Alcohol Denat:</strong> Often used as a solvent or to decrease drying time, but it can be drying and irritating to the skin, especially in higher concentrations.</li>
+                              <li></strong>Ascorbyl Palmitate:</strong> A vitamin C ester that can be an effective antioxidant but may cause skin irritation in sensitive individuals, particularly in the presence of UV light.</li>
+                          </ol>
+                            
+                    
+  
                         </div>
                       </div>
                     </div>
